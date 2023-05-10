@@ -1,98 +1,51 @@
+# Green Holiday Hotel Management System
 
-# Project Name - Travel Management System for Green Holiday Center
-# Batch - Weekend group 1.1
+Welcome to the Green Holiday Hotel Management System GitHub repository! This project is a collaborative effort of our team and is built using the MERN (MongoDB, Express, React, Node.js) stack. It focuses on developing a sustainable and eco-friendly hotel management solution.
 
-### Group Members
-<table border ="1">
-  <tr>
-    <th>Name With Initials</th>
-    <th>Registration Number</th>
-    <th>Github Username</th>
-    <th>Email</th>
-    <th>Badge</th>
-  </tr>
-  <tr>
-    <td>Kariyapperuma M.V</td>
-    <td>IT21200892</td>
-    <td>KariyapperumaMV</td>
-    <td>IT21200892@my.sliit.lk</td>
-    <td><img src ="https://camo.githubusercontent.com/0c20fb932cbd47c90ec063dc7beecad980d959523816335334806b5e05d04020/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4c65616465722d726564"></td>
-  </tr>
-  <tr>
-    <td>Ekanayaka E.M.P.B</td>
-    <td>IT21211478</td>
-    <td>poornabhagya</td>
-    <td>IT21211478@my.sliit.lk</td>
-    <td><img src="https://camo.githubusercontent.com/0effff97ca79b9b4318d5df42601eb57e2480db7d7b47c063ca99ffe4c0b2f3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4d656d6265722d626c7565"></td>
-  </tr>
-  <tr>
-    <td>De Silva S.K.S.</td>
-    <td>IT21180620</td>
-    <td>sksdesilva</td>
-    <td>IT21180620@my.sliit.lk</td>
-     <td><img src="https://camo.githubusercontent.com/0effff97ca79b9b4318d5df42601eb57e2480db7d7b47c063ca99ffe4c0b2f3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4d656d6265722d626c7565"></td>
-  </tr>
-    <tr>
-    <td>Madhuranga M.A.H</td>
-    <td>IT21177132</td>
-    <td>Hasithamaduranga</td>
-    <td>IT21177132@my.sliit.lk</td>
-     <td><img src="https://camo.githubusercontent.com/0effff97ca79b9b4318d5df42601eb57e2480db7d7b47c063ca99ffe4c0b2f3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4d656d6265722d626c7565"></td>
-  </tr>
-      <tr>
-    <td>S.S.Obeyesekere</td>
-    <td>IT21119330</td>
-    <td>SSOIT21119330</td>
-    <td>IT21119330@my.sliit.lk</td>
-     <td><img src="https://camo.githubusercontent.com/0effff97ca79b9b4318d5df42601eb57e2480db7d7b47c063ca99ffe4c0b2f3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4d656d6265722d626c7565"></td>
-  </tr>
-    </tr>
-      <tr>
-    <td>M.A.P.D MALLAWAARCHCHI</td>
-    <td>IT21179594</td>
-    <td>IT21179594</td>
-    <td>IT21179594@my.sliit.lk</td>
-     <td><img src="https://camo.githubusercontent.com/0effff97ca79b9b4318d5df42601eb57e2480db7d7b47c063ca99ffe4c0b2f3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4d656d6265722d626c7565"></td>
-  </tr>
-   <tr>
-    <td>Shiwanthika D.N.H.</td>
-    <td>IT21376290</td>
-    <td>IT21376290</td>
-    <td>IT21376290@my.sliit.lk</td>
-     <td><img src="https://camo.githubusercontent.com/0effff97ca79b9b4318d5df42601eb57e2480db7d7b47c063ca99ffe4c0b2f3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe2ad902d4d656d6265722d626c7565"></td>
-  </tr>
-</table>
+## Features
 
-#### Brief Description of Project - 
-Our ITP project is a web application called “Green holiday” for a leading destination management company called “Green Holiday center". Green Holiday Center is a Travel Agency that was established in 2011, operating under the Sri Lankan Tourism Development Authority. 
+- **Add Hotel**: Seamlessly add new hotels to the system, providing essential details such as hotel name, location, amenities, and sustainability features.
+- **Edit Hotel**: Easily update and modify existing hotel information, ensuring accurate and up-to-date data for improved hotel management.
+- **Update and Delete**: Effortlessly update hotel details and remove outdated or closed hotels from the system, maintaining data integrity.
+- **Hotel Booking**: Enable guests to book hotel rooms through a user-friendly interface, selecting their desired dates, room type, and additional preferences.
+- **User View for Booking**: Provide a comprehensive view for users to search and filter available hotels based on location, amenities, sustainability features, and more.
+- **Sort and Search Function**: Allow users to sort hotels based on various criteria such as price, rating, and sustainability rating. Enable a quick search functionality to find specific hotels by name or location.
+- **Pagination**: Implement pagination to display a limited number of hotels per page, ensuring a smooth browsing experience for users.
 
-<img src = "https://www.greenholidaytravels.com/wp-content/uploads/2019/03/Main_green_logo.png">
-Green holiday center,
-<ul>
-  <li>Offers hotel & accommodation, transport and tour guides.</li>
-  <li>Promoting inbound travel to Sri Lanka</li>
-  <li>Operate various travel related products within the country.</li>
-  <li>Supply various activities – camping sites & equipment, safari jeeps, specialty restaurants.</li>
-  <li>Contacting with geographical markets teams in North America, Western Europe, Eastern Europe, Russia & Ukraine, India & Pakistan, Far East & Australia.</li>
-</ul>
- 
-The purpose of this web application is to help a company overcome specific obstacles. Its main objectives are to attract tourists and provide them with a seamless tour experience from the planning stage onward, while also reducing labor requirements and operating costs. The application is designed to maintain a database efficiently and offer clients 24/7 accessibility. By achieving these goals, the company aims to improve its overall efficiency and provide a better experience for its customers.
+## Tech Stack
 
-This web application includes:
-<ul>
-  <li>Online tour booking</li>
-  <li>Tourist management</li>
-  <li>Hotel  management</li>
-  <li>Guiders management</li>
-  <li>Vehicle management</li>
-  <li>Other services management</li>
-  <li>Loyalty and reward system</li>
-  <li>Customer care service and agent management</li>
-  <li>Tour management</li>
-</ul>
+The Green Holiday Hotel Management System is built using the following technologies:
 
-#### Technologies used - 
-<ul>
-  <li>MERN stack (MongoDB, Express, React, Nodejs)</li>
-  <li>GitHub for version control</li>
-  </ul>
+- **MongoDB**: A NoSQL database used to store hotel and booking data.
+- **Express**: A fast and flexible web application framework for Node.js, providing robust API endpoints for hotel and booking operations.
+- **React**: A popular JavaScript library for building user interfaces, used to create a responsive and intuitive front-end for the hotel management system.
+- **Node.js**: A server-side JavaScript runtime environment that executes JavaScript code outside of a web browser, powering the back-end of the application.
+
+## Getting Started
+
+To get started with the Green Holiday Hotel Management System, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running `npm install` in both the root directory and the `client` directory.
+3. Set up your MongoDB connection and configure the database settings.
+4. Start the development server by running `npm run dev` in the root directory.
+5. Access the application by visiting `http://localhost:3000` in your browser.
+
+## Contribution Guidelines
+
+We welcome contributions to the Green Holiday Hotel Management System! This project is a group effort, and we encourage collaboration. To contribute, please follow these guidelines:
+
+1. Fork the repository and create a new branch for your feature or bug fix.
+2. Implement your changes or additions.
+3. Test your code thoroughly and ensure it adheres to the project's coding style and guidelines.
+4. Create a pull request, providing a clear description of your changes and their purpose.
+
+Let's work together as a team to create an efficient and sustainable hotel management system that promotes eco-conscious practices!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
+
+---
+
+Note: This README focuses on the features implemented by our team, while acknowledging that the project may contain additional features developed by other team members.
