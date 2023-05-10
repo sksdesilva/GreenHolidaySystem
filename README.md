@@ -28,7 +28,7 @@ To get started with the Green Holiday Hotel Management System, follow these step
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `npm install` in both the root directory and the `client` directory.
 3. Set up your MongoDB connection and configure the database settings.
-4. Start the development server by running `npm run dev` in the root directory.
+4. Start the development server by running `npm start` in the root directory.
 5. Access the application by visiting `http://localhost:3000` in your browser.
 
 ## Contribution Guidelines
