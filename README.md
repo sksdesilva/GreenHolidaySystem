@@ -1,4 +1,4 @@
-![MasterHead](https://static.sliit.lk/wp-content/uploads/2021/10/24070027/SLIIT.png)
+
 # Project Name - Travel Management System for Green Holiday Center
 # Batch - Weekend group 1.1
 
