@@ -1,0 +1,75 @@
+/* Import the background image */
+.login-form {
+    /* background-image: url("https://www.untraditionalmedia.com/wp-content/uploads/2019/03/images2397-5c9c338dcef1d.jpg"); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Add styles for the form title */
+  .login-form__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Add styles for form groups (label, input, error message) */
+  .login-form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form__label {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #000000;
+  }
+  
+  .login-form__input {
+    padding: 10px;
+  border: 2px solid #dbd5d5;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  font-size: 1.2rem;
+  }
+  
+  .login-form__error {
+    margin-top: 5px;
+    color: #ff0000;
+  }
+  
+  /* Add styles for the submit button */
+  .login-form__button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form__button:hover {
+    background-color: #f57c00;
+  }
+
+  .img-hol{
+    margin-top: -100px;
+    height: 100px;
+  }
+  

@@ -1,0 +1,63 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: -100px;
+    
+  }
+  
+  .dashboard-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;  
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('https://www.iconbunny.com/icons/media/catalog/product/2/7/2730.9-hotel-sign-icon-iconbunny.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+  }
+
+  .dashboard-icon:nth-child(2){
+    background-image: url('https://cdn-icons-png.flaticon.com/512/235/235813.png');
+  }
+  .dashboard-icon:nth-child(3){
+  background-image: url('https://www.transparentpng.com/thumb/analysis/AWHMkA-analysis-icon-clipart-background.png');
+  }
+ 
+  
+  .dashboard-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .dashboard-icon img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-icon p {
+    font-size: 1.0rem;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .dashboard-icon p:hover{
+    text-decoration: none;
+  }
+
+  .hd-link{
+    color: rgb(41, 39, 39);
+  }
+  .hd-link:hover{
+    text-decoration: none;
+    color: black;
+  }

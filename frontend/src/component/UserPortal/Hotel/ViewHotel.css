@@ -1,0 +1,119 @@
+.main-container{
+    /* background-color: blue; */
+    width: 1000px;
+    margin-left: 300px;
+}
+
+.container-h{
+    /* background-color: aquamarine; */
+    margin-bottom: 40px;
+    height: 250px;
+    border: 1px solid #948585;
+    border-radius: 10px;
+    
+}
+
+.img-container-h{
+    width: 180px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hotel-des{
+   margin-left: 40px;
+    margin-top: 10px;
+    /* background-color: rgb(200, 255, 1); */
+    width: 620px;
+    text-align: justify;
+}
+
+.hotel-des p{
+    margin:0 0 8px 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal
+}
+
+.button-hv{
+    margin-top: 100px;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .pagination button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 16px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination button.active {
+    background-color: #4CAF50;
+    color: #fff;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container select {
+    border: none;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .filter-container select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+  
+  .filter-container select option {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .filter-container select option:checked {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .filter-container select option[value="0"] {
+    font-style: italic;
+  }

@@ -1,0 +1,114 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  form {
+ 
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .form-group select,
+  .form-group input[type="number"],
+  .form-group textarea,
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .form-group input[type="file"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+   
+  }
+  
+  .form-group select:focus,
+  .form-group input[type="number"]:focus,
+  .form-group textarea:focus,
+  .form-group input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #0077cc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  button[type="submit"],.dbtn {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .dbtn{
+    margin-left: 50px;
+    background-color: #eb4242;
+  }
+
+  .dbtn:hover{
+    background-color: #fe0404
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005ea3;
+  }
+  
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .form-group {
+    animation: slideInRight 0.5s;
+  }

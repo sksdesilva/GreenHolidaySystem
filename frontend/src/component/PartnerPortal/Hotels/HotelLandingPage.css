@@ -1,0 +1,90 @@
+.landing-page-hotel {
+    height: 80vh;
+    width: 1400px;
+    background-image: url('https://www.untraditionalmedia.com/wp-content/uploads/2019/03/images2397-5c9c338dcef1d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    margin-left: 60px;
+    
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-family: 'Google Font Name', sans-serif;
+    z-index: 2;
+    opacity: 0;
+    animation: fade-in 1s forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -55%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    animation-delay: 1s;
+    margin-left: 370px;
+    text-decoration: none;
+  }
+  
+  .btn-hl {
+    display: inline-block;
+    color: #333;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-family: 'Google Font Name', sans-serif;
+    transition: all 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-hl:first-child{
+    background-color: #4CAF50;
+  }
+
+  .btn-hl:nth-child(2){
+    background-color: #2196F3 ;
+  }
+  
+  .btn-hl:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
